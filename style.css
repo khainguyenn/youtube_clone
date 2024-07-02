@@ -6,9 +6,7 @@ p {
 }
 
 .thumbnail {
-    width: 300px;
-    display: block;
-
+    width: 100%;
 }
 
 .search-bar {
@@ -22,30 +20,38 @@ p {
     width: 40px;
 
 }
-
-.video-preview {
-    display: inline-block;
-    width: 300px;
-    vertical-align: top;
-    margin-right: 15px;
-
+.video-name{
+    margin-top: 0;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 12px; 
 }
 
+.display {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+.thumb-and-info{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+   
+
+
+}
 .thumbnail-row {
     margin-bottom: 12px;
 }
 
-.chanel-picture {
-    width: 50px;
-    display: inline-block;
-    vertical-align: top;
+.channel-picture {
+    width: 40px;
+    border-radius: 100px;bdchsdbk
+    margin-right: 50px;
 }
 
-.video-info {
-    width: 200px;
-    display: inline-block;
 
-}
 
 .video-name {
     font-size: 14px;
